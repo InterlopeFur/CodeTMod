@@ -3232,7 +3232,7 @@ bool CBaseMonster::FCanActiveIdle()
 
 void CBaseMonster::PlaySentence(const char* pszSentence, float duration, float volume, float attenuation)
 {
-	ASSERT(pszSentence != nullptr);
+	//ASSERT(pszSentence != nullptr);
 
 	if (!pszSentence || !CanPlaySentence(true))
 	{
