@@ -22,9 +22,10 @@
 
 #pragma once
 
-#define RGB_YELLOWISH 0x00FFA000 //255,160,0
-#define RGB_REDISH 0x00FF1010	 //255,160,0
-#define RGB_GREENISH 0x0000A000	 //0,160,0
+#define RGB_YELLOWISH 0x00FFA000	 // 255,160,0
+#define RGB_REDISH    0x00FF1010	 //255,160,0
+#define RGB_GREENISH  0x0000A000	 //0,160,0
+#define RGB_BLUEISH   0x0000A0FF     //0,160,255
 
 #include "common_types.h"
 #include "cl_dll.h"
